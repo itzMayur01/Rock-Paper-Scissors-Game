@@ -13,6 +13,14 @@ h1{
     
 }
 
+@media screen and (max-width: 569px) {
+    h1 {
+        height: 4.5rem;
+        font-size: 1.9rem;
+     
+    }
+  }
+
 
 .choice {
     height: 165px;
@@ -28,12 +36,31 @@ h1{
     cursor: pointer;
 }
 
+@media screen and (max-width: 569px) {
+    .choice {
+        
+     height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    }
+  }
+
+
 img{
     height: 150px;
     width: 150px;
     object-fit: cover;   /*to fit the image and actual size */
     border-radius: 50%;
 }
+
+@media screen and (max-width: 569px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+  }
+
+ 
 
 
 .choices{
@@ -44,6 +71,17 @@ img{
     gap: 3rem;
     margin-top: 5rem ;
 }
+
+@media screen and (max-width: 425px) {
+    .choices {
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+        margin-top: 1rem;
+
+    
+    }
+  }
 
 
 
@@ -56,12 +94,42 @@ img{
     gap: 5rem;
 
 }
+
+
+@media screen and (max-width: 425px) {
+    .score-board{
+    
+        font-size: 1.5rem;
+        margin-top: 0.85rem;
+    }
+  }
+
 #user-score, #comp-score{
     font-size: 4rem;
 }
+
+@media screen and (max-width: 425px) {
+    #user-score, #comp-score{
+    
+        font-size: 3rem;
+        
+    }
+  }
+
+
 .msg-container{
     margin-top: 5rem;
 }
+
+
+@media screen and (max-width: 425px) {
+    .msg-container{
+    
+        margin-top: 2.5rem;
+        
+    }
+  }
+
 
 #msg{
     margin-top: 5rem;
@@ -72,3 +140,11 @@ img{
     border-radius: 1rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 425px) {
+    #msg{
+    
+        font-size: 1.3rem;
+        
+    }
+  }
