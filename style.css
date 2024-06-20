@@ -126,7 +126,7 @@ img{
 @media screen and (max-width: 425px) {
     .msg-container{
     
-        margin-top: 1.5rem;
+        margin-top: 1.9rem;
         
     }
   }
@@ -147,7 +147,7 @@ img{
 @media screen and (max-width: 425px) {
     #msg{
     
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         
     }
   }
