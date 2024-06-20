@@ -151,3 +151,18 @@ img{
         
     }
   }
+
+  
+
+  .footer {
+    position:fixed ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #081b31;
+    color: white;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
